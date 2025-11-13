@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> TECNOFIX - Bio-us OS</title>
+  <link rel="stylesheet" href="public/assets/style.css" />
+  <style>
+
+  
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f4f9;
+  color: #222;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 1em;
+  background-color: #111;
+}
+
+.top-bar h1 {
+  font-size: 1.3em;
+  margin: 0;
+}
+
+.top-nav ul,
+.sub-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.top-nav li,
+.sub-nav li {
+  margin: 0 1em;
+}
+
+.top-nav a,
+.sub-nav a {
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.top-nav a:hover,
+.sub-nav a:hover {
+  opacity: 0.7;
+}
+
+.sub-bar {
+  background-color: #333;
+  padding: 0.4em 1em;
+}
+
+main {
+  display: flex;
+  padding: 1em;
+  gap: 1em;
+}
+
+aside {
+  flex: 1;
+  background-color: #fafafa;
+  border-radius: 8px;
+  padding: 1em;
+}
+
+.content {
+  flex: 3;
+  background-color: white;
+  border-radius: 8px;
+  padding: 1em;
+}
+
+footer {
+  text-align: center;
+  background-color: #111;
+  color: white;
+  padding: 1em 0;
+  margin-top: 2em;
+  </style>
+</head>
+<body>
+
+  <!-- Barra superior (global) -->
+  <header>
+    <div class="top-bar">
+      <h1>Bio-us OS</h1>
+      <nav class="top-nav">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Perfil</a></li>
+          <li><a href="#">Configuración</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Barra secundaria (por secciones) -->
+    <div class="sub-bar">
+      <nav class="sub-nav">
+        <ul>
+          <li><a href="#">Legal</a></li>
+          <li><a href="#">Docencia</a></li>
+          <li><a href="#">Psicología</a></li>
+          <li><a href="#">Programación</a></li>
+          <li><a href="#">Música</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <aside class="left">
+      <h2>Panel Lateral</h2>
+      <p>Menús, accesos o notas rápidas.</p>
+    </aside>
+
+    <section class="content">
+      <h2>Bienvenido a Bio-us OS</h2>
+      <p>Un ecosistema modular para aprender, crear y crecer.</p>
+    </section>
+
+
+    <section id="principios">
+  <h1>Mis Principios</h1>
+  <p>
+    No busco fundar una nueva doctrina, solo compartir la convicción de que 
+    la fe se vive cada día, entre errores, dudas y esperanza. 
+    Estas palabras son mi testimonio: que el amor, la empatía y la verdad 
+    pueden transformar incluso los momentos más oscuros.
+  </p>
+
+  <blockquote>
+    <strong>Filipenses 1:6</strong> — “El que comenzó en vosotros la buena obra, 
+    la perfeccionará hasta el día de Jesucristo.”
+  </blockquote>
+
+  <nav>
+    <ul>
+      <li><a href="principios/fortaleza.html">Fortaleza</a></li>
+      <li><a href="principios/disciplina.html">Disciplina</a></li>
+      <li><a href="principios/justificacion.html">Justificación</a></li>
+      <li><a href="principios/vocacion.html">Vocación</a></li>
+    </ul>
+  </nav>
+</section>
+
+
+    <aside class="right">
+      <h2>Noticias o alertas</h2>
+      <p>Actualizaciones del sistema o recordatorios.</p>
+    </aside>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>© 2025 Bio-us. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
+
+}
